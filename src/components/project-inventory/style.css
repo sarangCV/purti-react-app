@@ -1,0 +1,48 @@
+.card {
+    /* height: 50px;
+    width: 130px; */
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inventory-card-container {
+    background: none !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+.inventory-card-container h5 {
+    margin-right: 25px;
+}
+.inventory-single-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 130px;
+    /* background-color: red; */
+    margin: 0 5px;
+    color: #d7d7d7;
+}
+.inventory-single-block:hover {
+    background-color: #402101 !important;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 475px) {
+    .inventory-card-container h5 {
+        margin-right: 20px;
+        width: max-content;
+    }
+    .project-home-menu {
+        flex-direction: column;
+        padding: 20px 15px;
+        overflow-x: scroll;
+    }
+}
