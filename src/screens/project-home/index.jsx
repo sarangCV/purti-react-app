@@ -1,6 +1,7 @@
 import React from 'react';
 import projectLogo from '../../assets/project-home/project-logo.jpg';
 import Card from '../../components/project-home/Card';
+import { useHistory } from 'react-router-dom';
 // importing logos
 import { apartment, apartment_grey, floor_plan, floor_plan_two, gallery, galler_two, info, info_two, inventory, inventory_two, walkthrough, walkthrough_two } from '../../assets/icons';
 import Navbar from '../../components/navbar';
@@ -8,6 +9,9 @@ import Navbar from '../../components/navbar';
 import './style.css';
 
 const ProjectHome = () => {
+
+    const history = useHistory();
+
     return (
         <>
             <Navbar title="PROJECT HOME"/>
@@ -42,17 +46,17 @@ const ProjectHome = () => {
                             </div>
                         </div>
                         <div className="project-home-menu">
-                            <Card img={galler_two} title="GALLERY"/>
-                            <Card img={floor_plan_two} title="FLOOR PLAN"/>
+                            <Card img={galler_two} title="GALLERY" onClick={()=>history.push('/project-gallery')}/>
+                            <Card img={floor_plan_two} title="FLOOR PLAN" onClick={()=>history.push('/project-floor-plan')}/>
                             <Card img={info_two} title="INFO"/>
-                            <Card img={walkthrough_two} title="WALK THROUGH"/>
-                            <Card img={inventory_two} title="INVENTORY"/>
+                            <Card img={walkthrough_two} title="WALK THROUGH" onClick={()=>history.push('/project-walkthrough')}/>
+                            <Card img={inventory_two} title="INVENTORY" onClick={()=>history.push('/project-inventory')}/>
                         </div>
                         <div className="project-home-footer">
-                            <button className="btn btn-primary login-btn" type="submit">
+                            <button className="btn btn-primary login-btn" type="submit" onClick={()=>history.push('/price-sheet')}>
                                 Pricing
                             </button>
-                            <button className="btn btn-primary login-btn" type="submit">
+                            <button className="btn btn-primary login-btn" type="submit" onClick={()=>history.push('/booking-form')}>
                                 Send Quote
                             </button>
                         </div>
