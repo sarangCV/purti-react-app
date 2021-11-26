@@ -1,12 +1,12 @@
 import React from 'react';
 import './style.css'
 
-const Card = ({number, onClick}) => {
+const DashboardCard = ({title, onClick}) => {
     return (
-        <div className="card" onClick={onClick}>
-            <h2>{number}</h2>
+        <div className="dashboard-card" onClick={onClick}>
+            <h2>{title}</h2>
         </div>
     )
 }
 
-export default Card
+export default DashboardCard

@@ -4,6 +4,10 @@
 .container-sec-booking-form h3 {
     font-size: 17px;
 }
+
+.border-sec-booking-form {
+    margin: 70px 15px;
+}
 .booking-form-section-one {
     display: flex;
     flex-direction: row;

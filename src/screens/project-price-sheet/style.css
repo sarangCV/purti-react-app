@@ -1,3 +1,4 @@
+
 .price-sheet-section-one {
     display: flex;
     flex-direction: row;
@@ -13,8 +14,18 @@
 }
 .price-sheet-appartment-details {
     width: 48%;
+    margin-bottom: 15px;
+}
+.price-sheet-appartment-details h3 {
+    margin-bottom: 10px;
 }
 @media only screen and (max-width: 475px) {
+    .container-sec-price-sheet {
+        height: auto;
+    }
+    .border-sec-price-sheet {
+        margin: 70px 15px;
+    }
     .price-sheet-section-one {
         flex-direction: column;
     }

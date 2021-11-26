@@ -1,3 +1,8 @@
+
+.border-sec-project-home {
+    margin: 70px 10px;
+}
+
 .project-home-header {
     display: flex;
     flex-direction: row;
@@ -61,7 +66,23 @@
     margin-left: 10px;
 }
 
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 150px;
+    width: 200px;
+}
+
 @media only screen and (max-width: 475px) {
+    .container-sec-project-home {
+        height: auto;
+    }    
+    .border-sec-project-home {
+        margin: 70px 0px;
+        width: 95%;
+    }
     .project-home-header {
         flex-direction: column;
     }
@@ -71,7 +92,14 @@
         justify-content: center;
         margin-bottom: 15px;
     }
-
+    .project-home-menu {
+        flex-direction: row !important;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .project-home-menu::-webkit-scrollbar {
+        display: none;
+    }
     .project-info {
         flex-direction: row;
         justify-content: center;

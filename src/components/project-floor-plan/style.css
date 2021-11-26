@@ -1,4 +1,4 @@
-.card {
+.floor-plan-card {
     width: 230px;
     height: 120px;
     margin-right: 10px;
@@ -8,26 +8,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
-.card:hover {
+.floor-plan-card:hover {
     background-color: #4d2e0c !important;
     cursor: pointer;
     transition: 0.3s;
 }
-.card img {
+.floor-plan-card img {
     height: 26px;
     width: 26px;
     margin-bottom: 10px;
 }
 
-.card h3 {
+.floor-plan-card h3 {
     font-size: 16px;
     color: #d7d7d7;
 }
 
 @media only screen and (max-width: 475px) {
-    .card {
-        width: 155px;
+    .floor-plan-card {
+        min-width: 155px;
         margin-bottom: 10px;
         margin-left: 0;
     }

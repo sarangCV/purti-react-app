@@ -10,8 +10,8 @@ const PriceSheet = () => {
     return (
         <>
             <Navbar title="PRICE SHEET"/>
-            <div className="container-sec">
-                <div className="border-sec">
+            <div className="container-sec container-sec-price-sheet">
+                <div className="border-sec border-sec-price-sheet">
                     <div className="container">
                         <div className="price-sheet-section-one">
                             <div className="price-sheet-appartment-details">

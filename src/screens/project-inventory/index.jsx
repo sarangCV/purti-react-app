@@ -14,8 +14,8 @@ const Inventory = () => {
     return (
         <>
             <Navbar title="PROJECT INVENTORY"/>
-            <div className="container-sec">
-                <div className="border-sec">
+            <div className="container-sec container-sec-project-home">
+                <div className="border-sec border-sec-project-home">
                 <div className="container">
                         <div className="project-home-header inventory-header">
                             <div className="header-title">
@@ -58,7 +58,7 @@ const Inventory = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="project-home-menu">
+                        <div className="project-home-menu project-inventory-menu">
                             <InventoryCard title="Level 1" data={data_one}/>
                             <InventoryCard title="Level 2" data={data_two}/>
                             <InventoryCard title="Level 3" data={data_three}/>
@@ -67,13 +67,13 @@ const Inventory = () => {
                             <InventoryCard title="Level 6" data={data_two}/>
                         </div>
                         <div className="project-inventory-footer">
-                            <button className="btn btn-primary login-btn" type="submit">
+                            <button className="btn btn-primary login-btn inventory-btn-1" type="submit">
                                 Block
                             </button>
-                            <button className="btn btn-primary login-btn" type="submit">
+                            <button className="btn btn-primary login-btn inventory-btn-2" type="submit">
                                 Mark as sold
                             </button>
-                            <button className="btn btn-primary login-btn" type="submit">
+                            <button className="btn btn-primary login-btn inventory-btn-3" type="submit">
                                 Make available again
                             </button>
                         </div>

@@ -3,7 +3,7 @@ import './style.css'
 
 const FloorPlanCard = ({title}) => {
     return (
-        <div className="card">
+        <div className="floor-plan-card">
            <h3>{title}</h3>
         </div>
     )

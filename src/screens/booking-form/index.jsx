@@ -10,7 +10,7 @@ const BookingForm = () => {
         <>
             <Navbar title="BOOKING FORM"/>
             <div className="container-sec container-sec-booking-form">
-                <div className="border-sec">
+                <div className="border-sec border-sec-booking-form">
                     <div className="container">
                         {/* <div className="customer-title">
                             <h3>Enter the details to continue</h3>

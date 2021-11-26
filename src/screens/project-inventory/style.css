@@ -1,3 +1,6 @@
+.container-sec-project-inventory {
+    height: auto;
+}
 .header-title .building-status-sec-one, .header-title .building-status-sec-two {
     display: flex;
     justify-content: center;
@@ -31,6 +34,11 @@
     align-self: center;
     margin: 5px
 }
+
+.project-inventory-menu {
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+}
 .project-inventory-footer {
     display: flex;
     flex-direction: row;
@@ -42,6 +50,8 @@
     margin-left: 10px;
     
 }
+
+
 @media only screen and (max-width: 475px) {
     .project-info-inventory {
         flex-direction: column;
@@ -55,5 +65,14 @@
         height: 45px;
         margin-left: 10px;
         padding: 2px;
+    }
+    .inventory-btn-1 {
+        width: 20% !important;
+    }
+    .inventory-btn-2 {
+        width: 30% !important;
+    }
+    .inventory-btn-3 {
+        width: 50% !important;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
-import Card from '../../components/dashboard/Card';
+import DashboardCard from '../../components/dashboard/Card';
 
 import { useHistory } from 'react-router-dom';
 
@@ -21,19 +21,17 @@ const Dashboard = () => {
 
     return (
         <>
-            <Navbar/>
-            <div className="container-sec">
+            <Navbar title="Dashboard"/>
+            <div className="container-sec container-sec-dashboard">
                 <div className="border-sec">
                     <div className="container">
-                        <div className="dashboard-carousel">
-                            <Carousel breakPoints={breakPoints}>
-                                <Card number="1" onClick={()=> history.push('/project-home')}/>
-                                <Card number="2" onClick={()=> history.push('/project-home')}/>
-                                <Card number="3" onClick={()=> history.push('/project-home')}/>
-                                <Card number="4" onClick={()=> history.push('/project-home')}/>
-                                <Card number="5" onClick={()=> history.push('/project-home')}/>
-                                <Card number="6" onClick={()=> history.push('/project-home')}/>
-                            </Carousel>
+                        <div className="dashboard-card-sec">
+                                <DashboardCard title="Project 1" onClick={()=> history.push('/project-home')}/>
+                                {/* <DashboardCard number="2" onClick={()=> history.push('/project-home')}/>
+                                <DashboardCard number="3" onClick={()=> history.push('/project-home')}/>
+                                <DashboardCard number="4" onClick={()=> history.push('/project-home')}/>
+                                <DashboardCard number="5" onClick={()=> history.push('/project-home')}/>
+                                <DashboardCard number="6" onClick={()=> history.push('/project-home')}/> */}
                         </div>
                         
                     </div>

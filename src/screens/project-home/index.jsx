@@ -15,8 +15,8 @@ const ProjectHome = () => {
     return (
         <>
             <Navbar title="PROJECT HOME"/>
-            <div className="container-sec">
-                <div className="border-sec">
+            <div className="container-sec container-sec-project-home">
+                <div className="border-sec border-sec-project-home">
                     <div className="container">
                         <div className="project-home-header">
                             <div className="project-logo">

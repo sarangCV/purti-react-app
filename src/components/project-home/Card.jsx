@@ -3,7 +3,7 @@ import './style.css'
 
 const Card = ({img, title, onClick}) => {
     return (
-        <div className="card" onClick={onClick}>
+        <div className="card-project-home" onClick={onClick}>
             <img src={img} alt="gallery" />
             <h3>{title}</h3>
         </div>
