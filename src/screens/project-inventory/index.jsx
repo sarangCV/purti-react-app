@@ -18,7 +18,7 @@ const Inventory = () => {
                 <div className="border-sec border-sec-project-home">
                 <div className="container">
                         <div className="project-home-header inventory-header">
-                            <div className="header-title">
+                            <div className="header-title header-title-desktop">
                                 <div className="building-status-sec-one">
                                     SOLD
                                 </div>
@@ -56,6 +56,14 @@ const Inventory = () => {
                                 <button className="btn btn-primary login-btn inventory-header-btn" type="submit">
                                         Choose Tower
                                 </button>
+                            </div>
+                            <div className="header-title header-title-mobile">
+                                <div className="building-status-sec-one">
+                                    SOLD
+                                </div>
+                                <div className="building-status-sec-two">
+                                    AVAILABLE
+                                </div>
                             </div>
                         </div>
                         <div className="project-home-menu project-inventory-menu">
