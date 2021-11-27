@@ -25,16 +25,16 @@ const ProjectHome = () => {
                             </div>
                             <div className="project-info">
                                     <div className="project-info-inner-row project-info-inner-row-first">
-                                        <div className="col-3">1 BHK</div>
+                                        <div className="col-3">3 BHK</div>
                                         <div className="col-3"><img src={apartment} /></div>
                                         <div className="col-4">AVAILABLE</div>
                                     </div>
                                     <div className="project-info-inner-row">
-                                        <div className="col-3">2 BHK</div>
+                                        <div className="col-3">4 BHK</div>
                                         <div className="col-3"><img src={apartment_grey} /></div>
                                         <div className="col-4">SOLD OUT</div>
                                     </div>
-                                    <div className="project-info-inner-row">
+                                    {/* <div className="project-info-inner-row">
                                         <div className="col-3">2.5 BHK</div>
                                         <div className="col-3"><img src={apartment} /></div>
                                         <div className="col-4">AVAILABLE</div>
@@ -43,7 +43,7 @@ const ProjectHome = () => {
                                         <div className="col-3">3 BHK</div>
                                         <div className="col-3"><img src={apartment_grey} /></div>
                                         <div className="col-4">SOLD OUT</div>
-                                    </div>
+                                    </div> */}
                             </div>
                         </div>
                         <div className="project-home-menu">

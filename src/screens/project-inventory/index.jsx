@@ -33,16 +33,16 @@ const Inventory = () => {
                             <div className="project-info project-info-inventory">
                                 <div className="project-info-inner">
                                     <div className="project-info-inner-row project-info-inner-row-first">
-                                        <div className="col-3">1 BHK</div>
+                                        <div className="col-3">3 BHK</div>
                                         <div className="col-3"><img src={apartment} /></div>
                                         <div className="col-4">AVAILABLE</div>
                                     </div>
                                     <div className="project-info-inner-row">
-                                        <div className="col-3">2 BHK</div>
+                                        <div className="col-3">4 BHK</div>
                                         <div className="col-3"><img src={apartment_grey} /></div>
                                         <div className="col-4">SOLD OUT</div>
                                     </div>
-                                    <div className="project-info-inner-row">
+                                    {/* <div className="project-info-inner-row">
                                         <div className="col-3">2.5 BHK</div>
                                         <div className="col-3"><img src={apartment} /></div>
                                         <div className="col-4">AVAILABLE</div>
@@ -51,7 +51,7 @@ const Inventory = () => {
                                         <div className="col-3">3 BHK</div>
                                         <div className="col-3"><img src={apartment_grey} /></div>
                                         <div className="col-4">FEW LEFT</div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <button className="btn btn-primary login-btn inventory-header-btn" type="submit">
                                         Choose Tower

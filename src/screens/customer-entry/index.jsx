@@ -12,24 +12,10 @@ const CustomerEntry = () => {
     const projects = [
         {
             key: 1,
-            text: 'Project 1',
-            value: 'Project 1'
-        },
-        {
-            key: 2,
-            text: 'Project 2',
-            value: 'Project 2'
-        },
-        {
-            key: 3,
-            text: 'Project 3',
-            value: 'Project 3'
-        },
-        {
-            key: 4,
-            text: 'Project 4',
-            value: 'Project 4'
+            text: 'Purti Hasting',
+            value: 'Purti Hasting'
         }
+        
     ]
     return (
         <>

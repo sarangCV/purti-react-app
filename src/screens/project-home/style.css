@@ -120,6 +120,7 @@
         align-items: center;
         width: 100%;
         border-top: none;
+        text-align: center;
     }
     .project-home-footer {
         justify-content: space-around;
