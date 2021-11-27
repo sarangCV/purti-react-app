@@ -20,16 +20,16 @@ export const data_one = [
             number: 3094,
             status: 'available'
     },
-    {
-            id: 5,
-            number: 3095,
-            status: 'available'
-    },
-    {
-            id: 6,
-            number: 3096,
-            status: 'available'
-    }
+//     {
+//             id: 5,
+//             number: 3095,
+//             status: 'available'
+//     },
+//     {
+//             id: 6,
+//             number: 3096,
+//             status: 'available'
+//     }
 ]
 export const data_two = [
     {
@@ -52,16 +52,16 @@ export const data_two = [
             number: 3100,
             status: 'available'
     },
-    {
-            id: 5,
-            number: 3101,
-            status: 'sold'
-    },
-    {
-            id: 6,
-            number: 3102,
-            status: 'available'
-    }
+//     {
+//             id: 5,
+//             number: 3101,
+//             status: 'sold'
+//     },
+//     {
+//             id: 6,
+//             number: 3102,
+//             status: 'available'
+//     }
 ]
 export const data_three = [
     {
@@ -84,14 +84,14 @@ export const data_three = [
             number: 3106,
             status: 'available'
     },
-    {
-            id: 5,
-            number: 3107,
-            status: 'sold'
-    },
-    {
-            id: 6,
-            number: 3108,
-            status: 'sold'
-    }
+//     {
+//             id: 5,
+//             number: 3107,
+//             status: 'sold'
+//     },
+//     {
+//             id: 6,
+//             number: 3108,
+//             status: 'sold'
+//     }
 ]

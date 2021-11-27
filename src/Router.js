@@ -14,6 +14,7 @@ import ProjectFloorPlan from './screens/project-floor-plan';
 import FloorPlanSingleOne from './screens/floor-plan-single-one';
 import FloorPlanSingleTwo from './screens/floor-plan-single-two';
 import ProjectMasterPlan from './screens/project-master-plan';
+import ProjectInfo from './screens/project-info';
 
 import ProjectInventory from './screens/project-inventory';
 import PriceSheet from './screens/project-price-sheet';
@@ -58,6 +59,8 @@ const Router = () => {
                 <PrivateRoute path="/floor-plan-single-two"><FloorPlanSingleTwo/></PrivateRoute>
                 {/* PROJECT MASTER PLAN SCREEN ROUTE */}
                 <PrivateRoute path="/project-master-plan"><ProjectMasterPlan/></PrivateRoute>
+                {/* PROJECT INFO SCREEN ROUTE */}
+                <PrivateRoute path="/project-info"><ProjectInfo/></PrivateRoute>
                 {/* PROJECT INVENTORY SCREEN ROUTE */}
                 <PrivateRoute path="/project-inventory"><ProjectInventory/></PrivateRoute>
                 {/* PRICE LIST SCREEN ROUTE */}

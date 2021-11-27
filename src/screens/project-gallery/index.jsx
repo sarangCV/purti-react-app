@@ -23,6 +23,7 @@ const ProjectGallery = () => {
         <>
             <Navbar title="PROJECT GALLERY"/>
             <div className="container-sec">
+                <h2 className="gallery-title">Gallery</h2>
                 <div className="border-sec">
                     {/* <div className="container"> */}
                         <div className="dashboard-carousel dashboard-carousel-gallery">

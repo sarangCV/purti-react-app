@@ -16,6 +16,11 @@
     color: #4a2e23;
 }
 
+.navbar-items img {
+    width: 8%;
+    max-width: 100%;
+    margin-left: 50px;
+}
 .navbar-items .nav-signout-btn {
     width: 100px !important;
     margin-right: 50px !important;
@@ -23,6 +28,11 @@
 }
 
 @media only screen and (max-width: 475px) {
+    .navbar-items img {
+        width: 25%;
+        max-width: 100%;
+        margin-left: 10px;
+    }
     .navbar-items h2 {
         margin-left: 10px;
         margin-bottom: 0;

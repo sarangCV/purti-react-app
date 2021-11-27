@@ -20,9 +20,9 @@ const ProjectHome = () => {
                 <div className="border-sec border-sec-project-home">
                     <div className="container">
                         <div className="project-home-header">
-                            <div className="project-logo">
+                            {/* <div className="project-logo">
                                     <img src={project_one} alt="logo" />
-                            </div>
+                            </div> */}
                             <div className="project-info">
                                     <div className="project-info-inner-row project-info-inner-row-first">
                                         <div className="col-3">3 BHK</div>
@@ -50,7 +50,7 @@ const ProjectHome = () => {
                             <Card img={galler_two} title="GALLERY" onClick={()=>history.push('/project-gallery')}/>
                             <Card img={floor_plan_two} title="FLOOR PLAN" onClick={()=>history.push('/project-floor-plan')}/>
                             <Card img={floor_plan_two} title="MASTER PLAN" onClick={()=>history.push('/project-master-plan')}/>
-                            <Card img={info_two} title="INFO"/>
+                            <Card img={info_two} title="INFO" onClick={()=>history.push('/project-info')}/>
                             <Card img={walkthrough_two} title="WALK THROUGH" onClick={()=>history.push('/project-walkthrough')}/>
                             <Card img={inventory_two} title="INVENTORY" onClick={()=>history.push('/project-inventory')}/>
                         </div>

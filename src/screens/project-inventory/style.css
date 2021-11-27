@@ -15,12 +15,12 @@
 
 }
 .header-title .building-status-sec-one {
-    background-color: #e1e1e1;
-    color: #4a2e23;
-}
-.header-title .building-status-sec-two {
     background-color: #9b9b9b;
     color: #fff;
+}
+.header-title .building-status-sec-two {
+    background-color: #e1e1e1;
+    color: #4a2e23;
 }
 
 /* .project-logo img {
@@ -31,6 +31,8 @@
     border: 2px solid #cdcdcd;
     padding: 10px;
     border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .inventory-header-btn {
@@ -38,10 +40,18 @@
     align-self: center;
     margin: 5px
 }
-
+.project-info-inventory {
+    flex-direction: column;
+    height: 85px;
+    width: 400px;
+}
 .project-inventory-menu {
     flex-direction: column !important;
     flex-wrap: wrap !important;
+}
+.inventory-project-logo {
+    display: flex;
+    justify-content: center;
 }
 .project-inventory-footer {
     display: flex;
@@ -62,9 +72,11 @@
     }
     .header-title-mobile {
         display: block;
+        width: 100%;
     }
     .project-info-inventory {
         flex-direction: column;
+        width: 100%;
     }
     .project-info-inner {
         display: flex;
