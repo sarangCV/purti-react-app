@@ -11,6 +11,10 @@ import ProjectHome from './screens/project-home';
 import ProjectGallery from './screens/project-gallery';
 import ProjectWalkthrough from './screens/project-walkthrough';
 import ProjectFloorPlan from './screens/project-floor-plan';
+import FloorPlanSingleOne from './screens/floor-plan-single-one';
+import FloorPlanSingleTwo from './screens/floor-plan-single-two';
+import ProjectMasterPlan from './screens/project-master-plan';
+
 import ProjectInventory from './screens/project-inventory';
 import PriceSheet from './screens/project-price-sheet';
 import BookingForm from './screens/booking-form';
@@ -48,9 +52,13 @@ const Router = () => {
                 <PrivateRoute path="/project-gallery"><ProjectGallery/></PrivateRoute>
                 {/* PROJECT GALLERY SCREEN ROUTE */}
                 <PrivateRoute path="/project-walkthrough"><ProjectWalkthrough/></PrivateRoute>
-                {/* PROJECT GALLERY SCREEN ROUTE */}
+                {/* PROJECT FLOOR PLAN SCREEN ROUTE */}
                 <PrivateRoute path="/project-floor-plan"><ProjectFloorPlan/></PrivateRoute>
-                {/* PROJECT GALLERY SCREEN ROUTE */}
+                <PrivateRoute path="/floor-plan-single-one"><FloorPlanSingleOne/></PrivateRoute>
+                <PrivateRoute path="/floor-plan-single-two"><FloorPlanSingleTwo/></PrivateRoute>
+                {/* PROJECT MASTER PLAN SCREEN ROUTE */}
+                <PrivateRoute path="/project-master-plan"><ProjectMasterPlan/></PrivateRoute>
+                {/* PROJECT INVENTORY SCREEN ROUTE */}
                 <PrivateRoute path="/project-inventory"><ProjectInventory/></PrivateRoute>
                 {/* PRICE LIST SCREEN ROUTE */}
                 <PrivateRoute path="/price-sheet"><PriceSheet/></PrivateRoute>

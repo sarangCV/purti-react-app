@@ -8,6 +8,8 @@ import 'semantic-ui-css/semantic.min.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import { UserContextProvider } from './context/userContext';
 
+// import * as serviceWorker from './serviceWorker';
+
 ReactDOM.render(
   <>
     <UserContextProvider>

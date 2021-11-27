@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css'
 
-const FloorPlanCard = ({title}) => {
+const FloorPlanCard = ({title, onClick}) => {
     return (
-        <div className="floor-plan-card">
+        <div className="floor-plan-card" onClick={onClick}>
            <h3>{title}</h3>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import projectLogo from '../../assets/project-home/project-logo.jpg';
+import project_one from '../../assets/dashboard/assets-02.png'
 import Card from '../../components/project-home/Card';
 import { useHistory } from 'react-router-dom';
 // importing logos
@@ -20,7 +21,7 @@ const ProjectHome = () => {
                     <div className="container">
                         <div className="project-home-header">
                             <div className="project-logo">
-                                    <img src={projectLogo} alt="logo" />
+                                    <img src={project_one} alt="logo" />
                             </div>
                             <div className="project-info">
                                     <div className="project-info-inner-row project-info-inner-row-first">
@@ -48,6 +49,7 @@ const ProjectHome = () => {
                         <div className="project-home-menu">
                             <Card img={galler_two} title="GALLERY" onClick={()=>history.push('/project-gallery')}/>
                             <Card img={floor_plan_two} title="FLOOR PLAN" onClick={()=>history.push('/project-floor-plan')}/>
+                            <Card img={floor_plan_two} title="MASTER PLAN" onClick={()=>history.push('/project-master-plan')}/>
                             <Card img={info_two} title="INFO"/>
                             <Card img={walkthrough_two} title="WALK THROUGH" onClick={()=>history.push('/project-walkthrough')}/>
                             <Card img={inventory_two} title="INVENTORY" onClick={()=>history.push('/project-inventory')}/>

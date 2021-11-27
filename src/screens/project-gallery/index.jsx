@@ -4,10 +4,10 @@ import GalleryCard from '../../components/project-gallery';
 import Navbar from '../../components/navbar';
 // importing images
 import gallery_one from '../../assets/project-gallery/1.jpg';
-import gallery_two from '../../assets/project-gallery/3.jpg'
-import gallery_three from '../../assets/project-gallery/4.png'
-import gallery_four from '../../assets/project-gallery/5.jpg'
-import gallery_five from '../../assets/project-gallery/6.jpg'
+import gallery_two from '../../assets/project-gallery/2.jpg'
+import gallery_three from '../../assets/project-gallery/3.jpg'
+import gallery_four from '../../assets/project-gallery/4.jpg'
+import gallery_five from '../../assets/project-gallery/5.jpg'
 
 import './style.css';
 
