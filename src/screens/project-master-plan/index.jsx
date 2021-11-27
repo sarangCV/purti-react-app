@@ -20,7 +20,7 @@ const FloorPlanSingle = () => {
 
     return (
         <>
-            <Navbar title="PROJECT FLOOR PLAN"/>
+            <Navbar title="PROJECT MASTER PLAN"/>
             <div className="container-sec">
                 <div className="border-sec">
                      <div className="dashboard-carousel dashboard-carousel-gallery">
